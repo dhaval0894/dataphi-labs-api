@@ -64,6 +64,7 @@ GEM
     pry-rails (0.3.4)
       pry (>= 0.9.10)
     rack (1.6.5)
+    rack-cors (0.4.0)
     rack-test (0.6.3)
       rack (>= 1.0)
     rails (4.2.4)
@@ -112,6 +113,7 @@ PLATFORMS
 
 DEPENDENCIES
   pry-rails
+  rack-cors
   rails (= 4.2.4)
   spring
   sqlite3
