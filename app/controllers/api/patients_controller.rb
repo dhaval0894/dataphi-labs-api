@@ -1,4 +1,4 @@
-module api
+module Api
   class PatientsController < ApplicationController
 
     def index
@@ -7,7 +7,7 @@ module api
 
     def search
       query = params[:query]
-      @patients = Patient.where('first_name Like ? OR last_name Like ?', "%#{query}", "%#{query}")
+      @patients = Patient.where('first_name Like ? OR last_name Like ?', "%#{query}%", "%#{query}%")
       render json: @patients
     end
 
@@ -18,7 +18,7 @@ module api
         render json: patient
       else
         render nothing: true, status: :bad_request
-      end  
+      end
     end
 
     private
