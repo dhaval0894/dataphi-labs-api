@@ -1,7 +1,9 @@
-# This file should contain all the record creation needed to seed the database with its default values.
 # The data can then be loaded with the rake db:seed (or created alongside the db with db:setup).
-#
-# Examples:
-#
-#   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
-#   Mayor.create(name: 'Emanuel', city: cities.first)
+Patient.create('first_name': 'Florence', 'last_name': 'Bates', 'age': 15, 'dob': '03/12/2001', 'gender': 'Male', 'mobile': '8717223098', 'other_info': 'Morbi malesuada commodo gravida. Fusce odio justo, commodo ac dictum ut, pellentesque laoreet est. Aliquam vitae scelerisque est.')
+Patient.create('first_name': 'Aileen', 'last_name': 'Bradford', 'age': 24, 'dob': '12/10/1992', 'gender': 'Female', 'mobile': '9514348607', 'other_info': 'Morbi malesuada commodo gravida. Fusce odio justo, commodo ac dictum ut, pellentesque laoreet est. Aliquam vitae scelerisque est.')
+Patient.create('first_name': 'Rhoda', 'last_name': 'Heath', 'age': 59, 'dob': '28/01/1957', 'gender': 'Female', 'mobile': '7413354614', 'other_info': 'Morbi malesuada commodo gravida. Fusce odio justo, commodo ac dictum ut, pellentesque laoreet est. Aliquam vitae scelerisque est.')
+Patient.create('first_name': 'Michael', 'last_name': 'Ferrell', 'age': 35, 'dob': '05/10/1981', 'gender': 'Male', 'mobile': '8894804334', 'other_info': 'Morbi malesuada commodo gravida. Fusce odio justo, commodo ac dictum ut, pellentesque laoreet est. Aliquam vitae scelerisque est.')
+Patient.create('first_name': 'Jackson', 'last_name': 'Raymond', 'age': 46, 'dob': '31/01/1973', 'gender': 'Male', 'mobile': '7648951543', 'other_info': 'Morbi malesuada commodo gravida. Fusce odio justo, commodo ac dictum ut, pellentesque laoreet est. Aliquam vitae scelerisque est.')
+Patient.create('first_name': 'Candice', 'last_name': 'Frost', 'age': 57, 'dob': '26/01/1959', 'gender': 'Female', 'mobile': '7925887111', 'other_info': 'Morbi malesuada commodo gravida. Fusce odio justo, commodo ac dictum ut, pellentesque laoreet est. Aliquam vitae scelerisque est.')
+Patient.create('first_name': 'Lance', 'last_name': 'Shaffer', 'age': 62, 'dob': '25/08/1954', 'gender': 'Male', 'mobile': '7961418453', 'other_info': 'Morbi malesuada commodo gravida. Fusce odio justo, commodo ac dictum ut, pellentesque laoreet est. Aliquam vitae scelerisque est.')
+Patient.create('first_name': 'Lacota', 'last_name': 'Moran', 'age': 7, 'dob': '23/01/2009', 'gender': 'Male', 'mobile': '779564 4795',  'other_info': 'Morbi malesuada commodo gravida. Fusce odio justo, commodo ac dictum ut, pellentesque laoreet est. Aliquam vitae scelerisque est.')
