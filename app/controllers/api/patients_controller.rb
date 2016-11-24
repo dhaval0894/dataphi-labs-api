@@ -1,5 +1,6 @@
 module Api
   class PatientsController < ApplicationController
+    skip_before_action :verify_authenticity_token
 
     def index
       render json: Patient.all
@@ -15,7 +16,7 @@ module Api
       @patient = Patient.new(patient_params)
 
       if @patient.save
-        render json: patient
+        render json: @patient
       else
         render nothing: true, status: :bad_request
       end
